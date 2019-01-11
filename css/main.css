@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+
+  font: normal 100%/1.5 Roboto, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  padding: .4em .75em .5em;
+
+  background-color: #333;
+  border-radius: 8px;
+  border: 3px solid #333;
+
+  color: #fff;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.banner {
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  left: 50%;
+  max-width: 45em;
+  padding: 0 1em;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+
+  transform: translate(-50%, -50%);
+}
+
+.banner-left {
+  width: 33%;
+}
+
+.banner-right {
+  width: 60%;
+}
+
+.banner-title {
+  margin: 0;
+  max-width: 6em;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.banner-desc {
+  margin: .5rem 0 1.2rem;
+
+  font-size: 1.5rem;
+}
